@@ -49,6 +49,10 @@
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
+  .small {
+    @include fontStack('Proxima Nova', 400, 18, 23, 200);
+    display: block;
+  }
 }
 .gallery-item {
   padding-bottom: 15px;
@@ -65,6 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 1;
     background: $color--mine-shaft--transparent;
   }

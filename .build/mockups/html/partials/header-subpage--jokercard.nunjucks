@@ -1,0 +1,16 @@
+<div class="header--subpage--v2">
+    <div class="header__slider container-page position-relative">
+        <div class="header__slider--images">
+            <div class="header__slider--images--item">
+                <img src="/img/sommer/jokercard-header.jpg"  class="img-fluid" alt="Hintergrundbild">
+            </div>
+        </div>
+        <div class="header__slider--stoerer">
+            <a href="#"><img src="/img/sommer/Jokercard.svg" alt="Informativer Button"></a>
+        </div>
+
+    </div>
+    <div class="header__slogan">
+        <h1>Die Jokercard</h1>
+    </div>
+</div>
