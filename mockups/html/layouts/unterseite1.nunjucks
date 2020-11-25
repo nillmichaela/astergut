@@ -1,0 +1,41 @@
+{% from 'macros/imageFigure.nunjucks' import imageFigure %}
+{% from 'macros/imageFigureLightbox.nunjucks' import imageFigureLightbox %}
+
+{% from 'macros/elements/header.nunjucks' import header %}
+{% from 'macros/elements/divider.nunjucks' import divider %}
+{% from 'macros/elements/text.nunjucks' import text %}
+{% from 'macros/elements/textMedia.nunjucks' import textMedia %}
+{% from 'macros/elements/textHighlight.nunjucks' import textHighlight %}
+{% from 'macros/elements/sliderContent.nunjucks' import sliderContent %}
+{% from 'macros/elements/sliderGallery.nunjucks' import sliderGallery %}
+{% from 'macros/elements/sliderProducts.nunjucks' import sliderProducts %}
+{% from 'macros/elements/listButtons.nunjucks' import listButtons %}
+{% from 'macros/elements/infoPrices.nunjucks' import infoPrices %}
+{% from 'macros/elements/tablePrices.nunjucks' import tablePrices %}
+<!doctype html>
+<html lang="de" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    {% include 'partials/resources-header.nunjucks' %}
+    {% include 'partials/meta.nunjucks' %}
+</head>
+<body>
+<div class="page-wrap">
+    <header class="page-header">
+        {% include 'partials/main-nav.nunjucks' %}
+        {% include 'partials/header-subpage--app.nunjucks' %}
+        {% include 'partials/inquiry.nunjucks' %}
+        {% include 'partials/quicklinks.nunjucks' %}
+
+        {% block header %}{% endblock %}
+    </header>
+    {% block content %}{% endblock %}
+    {% include 'partials/footer.nunjucks' %}
+</div>
+{% include 'partials/photoswipe.nunjucks' %}
+{% include 'partials/resources-footer.nunjucks' %}
+</body>
+</html>

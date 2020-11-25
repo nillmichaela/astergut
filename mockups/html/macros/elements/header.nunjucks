@@ -1,0 +1,8 @@
+{% macro header(config) %}
+	{% if config.title %}
+		<header class="element element--header h{{ config.layout }} text-{{ config.align }}">
+			{% if config.subtitle %}<span>{{ config.subtitle }}</span>{% endif %}
+			<h{{ config.layout }}>{{ config.title | safe }}</h{{ config.layout }}>
+		</header>
+	{% endif %}
+{% endmacro %}

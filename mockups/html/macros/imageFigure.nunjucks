@@ -1,0 +1,6 @@
+{% macro imageFigure(config) %}
+	<figure>
+		<img class="img-fluid" src="{{ config.src }}" alt="{{ config.alt }}">
+		{% if config.caption %}<figcaption>{{ config.caption }}</figcaption>{% endif %}
+	</figure>
+{% endmacro %}

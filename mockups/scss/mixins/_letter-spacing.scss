@@ -1,0 +1,5 @@
+@import "../functions";
+
+@mixin letterSpacing($letterSpacing) {
+	letter-spacing: #{strip-unit($letterSpacing) / 1000}em;
+}

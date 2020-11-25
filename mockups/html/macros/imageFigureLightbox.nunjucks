@@ -1,0 +1,8 @@
+{% macro imageFigureLightbox(config) %}
+	<figure>
+		<a href="{{ config.src }}" class="photoswipe" rel="{{ config.rel }}">
+			<img class="img-fluid" src="{{ config.src }}" alt="{{ config.alt }}">
+		</a>
+		{% if config.caption %}<figcaption>{{ config.caption }}</figcaption>{% endif %}
+	</figure>
+{% endmacro %}

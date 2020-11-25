@@ -1,0 +1,112 @@
+{% set title = 'About - Astergut' %}
+{% set currentAlias = 'about' %}
+
+{% extends 'layouts/unterseite_about.nunjucks' %}
+{% block content %}
+    <div class="page-content">
+        <div id="lage" class="element container-inner">
+            <div class="row">
+                <div class="col-xl-7">
+                    <img src="img/about/content.jpg" class="w-100">
+                </div>
+                <div class="col-xl-5">
+                    <div class="text-bg ">
+                        <h2>Beste Lage</h2>
+                        <h3>DIREKT IM NATURPARADIES</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsu
+                        </p>
+                    </div>
+                    <div class="text--badge">
+                        <img src="img/icons/badge_anfrage_nobg_de.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container-inner mt-5">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">250m</span>Turmfalke</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">1,5km</span>MPREIS</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">250m</span>Kohlmaisbahn</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">100m</span>Hinterhag Alm</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">1,7km</span>Billa</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">100m</span>Restaurant</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">150m</span>Hotel Sonnleiten</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">150m</span>Restaurant</h3>
+                            </div>
+                            <div class="col-xl-4 col-lg-6">
+                                <h3><span class="soft">150m</span>Restaurant</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gastgeber" class="element container-inner">
+            <div class="row">
+                <div class="col-xl-7">
+                    <img src="img/about/content.jpg" class="w-100">
+                    <div class="caption">Gastgeberbild</div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="text-bg ">
+                        <h2>Die Gastgeber</h2>
+                        <h3>DIREKT IM NATURPARADIES</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsu
+                        </p>
+                    </div>
+                    <div class="slogan d-none d-md-block">„Mit Herz lorem consetetur sadipscing elitr, sed diam nonumy eirmod“</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="impressionen" class="container-inner element impressions">
+            <div class="row">
+                <div class="col-xl-3 col-md-5">
+                    <div class="impressionen__img1"><img class="w-100" src="img/about/1.jpg"></div>
+                </div>
+                <div class="col-xl-5 col-md-7">
+                    <div class="impressionen__img2"><img class="w-100" src="img/about/2.jpg"></div>
+                    <div class="row">
+                        <div class="impressionen__img3 col-6"><img class="w-100" src="img/about/3.jpg"></div>
+                        <div class="impressionen__img4 col-6"><img class="w-100" src="img/about/4.jpg"></div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <h2>Impressionen</h2>
+                    <h3>Lorem Ipsum solare ipsem</h3>
+                    <img class="img-fluid" src="img/about/impressionen-laft.jpg">
+                    <a class="float-right btn btn--link mt-3">Weitere Bilder ansehen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

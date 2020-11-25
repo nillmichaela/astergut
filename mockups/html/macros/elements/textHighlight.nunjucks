@@ -1,0 +1,20 @@
+{% macro textHighlight(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<article class="element element--text-highlight">
+		<div class="row">
+			<div class="col-10 offset-1 col-lg-8 offset-lg-2">
+				<div class="row align-items-center">
+					<div class="col-xl-6">
+						<div class="test">
+							{{ header(config.header) }}
+						</div>
+					</div>
+					<div class="col-xl-6">
+						{{ config.content | safe }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+{% endmacro %}

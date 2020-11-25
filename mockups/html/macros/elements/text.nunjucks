@@ -1,0 +1,12 @@
+{% macro text(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<article class="element element--text">
+		<div class="row">
+			<div class="col-10 offset-1 col-lg-8 offset-lg-2">
+				{{ header(config.header) }}
+				{{ config.content | safe }}
+			</div>
+		</div>
+	</article>
+{% endmacro %}

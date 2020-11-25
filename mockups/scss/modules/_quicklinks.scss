@@ -1,0 +1,36 @@
+.quicklinks {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 4;
+  transform: translateY(-50%);
+  background: $color--mine-shaft;
+  padding: 8px;
+  li {
+    list-style-type: none;
+    list-style-image: none;
+  }
+  ul, li {
+    padding: 0;
+    margin:0;
+  }
+  li:not(:first-child){
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+  li:last-child {
+    padding-bottom: 5px;
+  }
+}
+
+.quicklinks-mobile {
+  position: fixed;
+  bottom: 110px;
+  width: 100%;
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

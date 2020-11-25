@@ -1,0 +1,42 @@
+{% macro tablePrices(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<div class="element element--table-prices">
+		<div class="row">
+			<div class="col-lg-10 offset-lg-1">
+				{{ header(config.header) }}
+				<div class="table-responsive table-responsive-lg">
+					<table class="table">
+						{% if config.thead.length %}
+							<thead>
+							<tr>
+								{% for cell in config.thead %}
+									<th>{{ cell | safe }}</th>
+								{% endfor %}
+							</tr>
+							</thead>
+						{% endif %}
+						
+						{% for row in config.tbody %}
+							<tr>
+								{% for cell in row %}
+									<td>{{ cell | safe }}</td>
+								{% endfor %}
+							</tr>
+						{% endfor %}
+						
+						{% if config.tfoot.length %}
+							<tfoot>
+							<tr>
+								{% for cell in config.tfoot %}
+									<td>{{ cell | safe }}</td>
+								{% endfor %}
+							</tr>
+							</tfoot>
+						{% endif %}
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endmacro %}

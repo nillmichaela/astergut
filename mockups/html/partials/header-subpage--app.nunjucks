@@ -1,0 +1,35 @@
+<div class="header--subpage--v1">
+    <div class="header__slider container-page position-relative">
+        <div class="header__slider--images">
+            <div class="header__slider--images--item">
+                <img src="/img/appartement/zimmer.jpg"  class="img-fluid" alt="Hintergrundbild">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-inner">
+    <div class="row position-relative flex-xl-row flex-column-reverse">
+        <div class="nav-subpage col-xl-3">
+            <ul class="row">
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#galerie">Bildergalerie</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#galerie">Virtueller Rundgang</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#ausstattung">Ausstattung/Leistung</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#spa">Private Spa</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#breakfast">Frühstück</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#calendar">Verfügbarkeit/Preise</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#info">Buchungsinfos</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-9 header--subpage--v1--description">
+            <h1 class="h2">Das Appartement</h1>
+            <ul class="special-list d-flex flex-md-row flex-column">
+                <li>110m²</li>
+                <li>6 Erwachsene</li>
+                <li>3 Kinder</li>
+            </ul>
+            <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+            <button class="btn btn--primary" name="inqiry_button" formaction="/unverbindliche-anfrage">Anfragen</button>
+            <button class="btn btn--secondary" name="book_button">Buchen</button>
+        </div>
+    </div>
+</div>

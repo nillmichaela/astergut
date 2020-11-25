@@ -1,0 +1,122 @@
+{% set title = 'Index - Astergut' %}
+{% set currentAlias = 'index' %}
+
+{% extends 'layouts/default.nunjucks' %}
+{% block content %}
+    <div class="page-content">
+        <div class="element media-text--async">
+            <div class="row">
+                <div class="media-text--async__text media-text--async__text--bg col-xl-6">
+                    <h2>Das Appartement</h2>
+                    <h3>Dein Rückzugsort direkt am Berg</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">Mehr Infos</a><a class="btn btn--link">Preise</a>
+                </div>
+                <div class="media-text--async__image1 col-xl-2 col-md-6 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/ZI6.jpg" alt="Zimmer">
+                    <div class="media-text--async__badge">
+                        <img class="img-fluid" src="img/icons/badge_gallery_de.svg" alt="Zur Galerie">
+                    </div>
+                </div>
+                <div class="media-text--async__image2 col-xl-5  col-md-6 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/ZI5.jpg" alt="Zimmer">
+                </div>
+            </div>
+        </div>
+        <div class="element media-text">
+            <div class="row">
+                <div class="media-text__text media-text__text--bg col-xl-6">
+                    <h2>Traumhafte Lage</h2>
+                    <h3>ATEMBERAUBENDER BLICK ÜBER DAS GLEMMTAL</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">ÜBER ASTERGUT</a>
+                </div>
+                <div class="media-text__image col-xl-6 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/lift.jpg" alt="Zimmer">
+                </div>
+            </div>
+        </div>
+        <div class="element media-text">
+            <div class="row">
+                <div class="media-text__text media-text__text--nobg col-xl-4">
+                    <h2>Private Spa</h2>
+                    <h3>ENTSPANNEN IN RUHIGER ATMOSPHÄRE </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">MEHR INFOS</a>
+                </div>
+                <div class="media-text__image col-xl-8 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/sauna.jpg" alt="Zimmer">
+                </div>
+            </div>
+        </div>
+        <div class="element two-media-text--async">
+            <div class="row">
+                <div class="two-media-text__image1 col-xl-3 col-md-5 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/wandern.jpg" alt="wandern">
+                </div>
+                <div class="two-media-text__image2 col-xl-5 col-md-7 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/ski.jpg" alt="Zimmer">
+                </div>
+                <div class="two-media-text__text two-media-text__text--nobg col-xl-4">
+                    <h2>Private Spa</h2>
+                    <h3>ENTSPANNEN IN RUHIGER ATMOSPHÄRE </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">MEHR INFOS</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="element text">
+            <div class="row">
+                <div class="media-text--async__text media-text--async__text--bg col-xl-6">
+                    <h2>Das Appartement</h2>
+                    <h3>Dein Rückzugsort direkt am Berg</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">Mehr Infos</a><a class="btn btn--link">Preise</a>
+                </div>
+            </div>
+        </div>
+        <div class="element media-link">
+            <div class="row">
+                <div class="offset-xl-4 col-xl-4 col-lg-6 media-link--item">
+                    <img class="w-100" src="img/startseite/weltcup.jpg" alt="Zimmer">
+                    <span class="description">Skiweltcup<br> Bei uns in Saalbach</span>
+                </div>
+                <div class="col-xl-4 col-lg-6 media-link--item">
+                    <img class="w-100" src="img/startseite/winter.jpg" alt="Zimmer">
+                    <span class="description">DER WINTER IST ENDLICH DA!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

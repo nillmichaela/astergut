@@ -1,0 +1,28 @@
+{% macro infoPrices(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<div class="element element--info-prices">
+		<div class="row">
+			<div class="col-10 offset-1 col-lg-8 offset-lg-2">
+				<div class="element--info-prices--inner">
+					{{ header(config.header) }}
+					{{ config.content | safe }}
+					
+					{% if config.items.length %}
+						<div class="row">
+							{% for item in config.items %}
+								<div class="col-md-6">
+									<div class="element--info-prices--item">
+										<strong>{{ item.label }}</strong>
+										<span>{{ item.date }}</span>
+										<div class="price">{{ item.price }}</div>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+{% endmacro %}

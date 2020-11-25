@@ -1,0 +1,26 @@
+<div class="inquiry">
+    <form class="h-100 d-flex justify-content-center justify-content-lg-around container-inquiry position-relative" method="get" action="/seekda-online-buchen/" data-action-booking="" data-action-inquiry="">
+        <div class="has-datepicker d-flex align-items-center"><label for="arrival-date" class="arrival-date d-none d-lg-block">Anreise<input type="text" placeholder="" id="arrival-date" name="skd-checkin"></label></div>
+        <div class="has-datepicker d-flex align-items-center"><label for="departure-date" class="departure-date d-none d-lg-block">Abreise<input type="text" placeholder="" id="departure-date" name="skd-checkout"></label></div>
+        <label for="adults" class="dropdown d-none d-xl-flex align-items-center">Erwachsene
+            <select id="adults" class=" d-none d-xl-block" name="adult_room1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select></label>
+        <label for="children" class="dropdown d-none d-xl-flex align-items-center">Kinder
+            <select id="children" class=" d-none d-xl-block" name="child_room1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select></label>
+        <input type="hidden" value="1" name="skd-total-rooms">
+        <div class="align-self-center">
+            <button class="btn btn--primary" name="inqiry_button" formaction="/unverbindliche-anfrage">Anfragen</button>
+            <button class="btn btn--secondary" name="book_button">Buchen</button>
+        </div>
+    </form>
+</div>

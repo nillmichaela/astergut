@@ -1,0 +1,158 @@
+{% set title = 'Appartement - Astergut' %}
+{% set currentAlias = 'appartement' %}
+
+{% extends 'layouts/unterseite1.nunjucks' %}
+{% block content %}
+
+    <div class="page-content">
+        <div id="galerie" class="element gallery-tour container-inner">
+            <div class="row">
+                <div class="col-xl-7">
+                    <div class="gallery">
+                        <img class="img-fluid" src="img/appartement/Zi1.jpg">
+                        <img class="img-fluid" src="img/appartement/GR.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi2.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi3.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi4.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi5.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi6.jpg">
+                        <img class="img-fluid" src="img/appartement/Zi7.jpg">
+                    </div>
+                    <div class="gallery-nav row">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi1.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/GR.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi2.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi3.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi4.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi5.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi6.jpg">
+                        <img class="img-fluid col-md-12" src="img/appartement/Zi7.jpg">
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="teaser">
+                        <a href="/">
+                            <div class="position-relative teaser__content">
+                                <img class="teaser__image img-fluid has-overlay has-icon-arrow" src="img/appartement/rundgang.jpg">
+                                <div class="teaser__badge">
+                                    <img class="img-fluid" src="img/icons/badge_rundgang_de.svg" alt="Zur Galerie">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ausstattung" class="element container-inner">
+            <h2>Ausstattung / Leistungen</h2>
+            <ul class="row">
+                <li class="col-xl-4 col-md-6">Kostenloser Parkplatz</li>
+                <li class="col-xl-4 col-md-6">VOLLAUSGESTATTETE KÜCHE</li>
+                <li class="col-xl-4 col-md-6">PRIVATER SPA-BEREICH MIT SAUNA</li>
+                <li class="col-xl-4 col-md-6">3 SCHLAFZIMMER MIT DOPPELBETT</li>
+                <li class="col-xl-4 col-md-6">WOHNRAUM MIT FLAT-TV</li>
+                <li class="col-xl-4 col-md-6">BETTWÄSCHE, HAND- UND DUSCHTÜCHER</li>
+                <li class="col-xl-4 col-md-6">3 SEPARATE BÄDER</li>
+                <li class="col-xl-4 col-md-6">FREIZEITRAUM MIT BILLARDTISCH</li>
+                <li class="col-xl-4 col-md-6">BABYBETT AUF ANFRAGE</li>
+            </ul>
+        </div>
+
+        <div id="spa" class="element container-inner media-text--fullwidth">
+            <div class="row">
+                <div class="col-12 media-text--fullwidth__image">
+                    <img src="img/startseite/sauna-4863340_1920.jpg">
+                </div>
+                <div class="position-relative text-center media-text--fullwidth__description">
+                    <h2>Private Spa</h2>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="breakfast" class="element two-media-text">
+            <div class="row">
+                <div class="two-media-text__image1 col-xl-3 col-md-5 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/wandern.jpg" alt="wandern">
+                </div>
+                <div class="two-media-text__image2 col-xl-5 col-md-7 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/startseite/ski.jpg" alt="Zimmer">
+                </div>
+                <div class="two-media-text__text two-media-text__text--nobg col-xl-4">
+                    <h2>Private Spa</h2>
+                    <h3>ENTSPANNEN IN RUHIGER ATMOSPHÄRE </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">MEHR INFOS</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="calendar" class="element container-inner">
+            <h2>Verfügbarkeit / Preise</h2>
+            <p>Dieses Element folgt.. </p>
+        </div>
+
+        <div id="info" class="element container-inner">
+            <h2>Buchungsinfos</h2>
+            <div class="row">
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 mb-5">
+                    <h3>AN- UND ABREISE</h3>
+                    <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <h3>RECHNUNGSDATEN</h3>
+                    <p>Astergut Boutique Appartement<br>
+                        Hinterhagweg 45<br>
+                        5753 Saalbach, Austria
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <h3>BANKKOORDINATEN</h3>
+                    <p>
+                        Raiffeisenbank Saalbach<br>
+                        IBAN: AT 00 00000 00000000000<br>
+                        BIC:    RVSAAT00000
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% macro textMedia(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<article class="element element--text-media">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-xl-5">
+				<div class="element--text-media--content">
+					{{ header(config.header) }}
+					{{ config.content | safe }}
+				</div>
+			</div>
+			<div class="col-lg-6 offset-xl-1">
+				<div class="element--text-media--media">
+					{{ config.media | safe }}
+				</div>
+				{% if config.badge %}
+					<div class="badge">
+						<img class="img-fluid" src="/img/layout/badge.png" alt="vom Arzt empfohlen">
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</article>
+{% endmacro %}

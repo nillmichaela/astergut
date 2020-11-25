@@ -1,0 +1,38 @@
+{% macro sliderProducts(config) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<div class="element element--slider-products">
+		{{ header(config.header) }}
+		<div class="element--slider-products--products">
+			{% for product in config.products %}
+				<div class="element--slider-products--products--item">
+					<div class="product">
+						<a href="" class="product--link">
+							{{ product.media }}
+							<strong>{{ product.title }}</strong>
+							<div class="price">{{ product.price }}</div>
+						</a>
+						<button type="button" class="btn add-to-favs">
+							<span class="sr-only">Merkliste</span>
+							<i class="is-default icon icon--heart"></i>
+							<i class="is-hover icon icon--heart-filled"></i>
+							<i class="is-active icon icon--heart-filled-red"></i>
+						</button>
+						<button type="button" class="btn add-to-cart">
+							<span class="sr-only">Warenkorb</span>
+							<i class="is-default icon icon--cart"></i>
+							<i class="is-hover icon icon--cart-filled"></i>
+							<i class="is-active icon icon--cart-filled-red"></i>
+						</button>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="slider-controls">
+			<div class="slider-controls--inner">
+				<span class="current-slide">01</span>
+				<span class="total-slides">{% if config.products.length < 10 %}0{{ config.products.length }}{% else %}{{ config.products.length }}{% endif %}</span>
+			</div>
+		</div>
+	</div>
+{% endmacro %}
