@@ -1,0 +1,8 @@
+<div class="quicklinks d-none d-md-block">
+    <ul>
+        <li><a href="#"><img src="/img/icons/jokercard.svg" alt="Jokercard"></a></li>
+        <li><a href="#"><img src="/img/icons/gallery.svg" alt="Gallery"></a></li>
+        <li><a href="#"><img src="/img/icons/fb.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="/img/icons/ig.svg" alt="Instagram"></a></li>
+    </ul>
+</div>

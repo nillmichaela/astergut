@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+// CONFIG
+@import "config/bootstrap";
+@import "config/photoswipe";
+@import "config/slick-carousel";
+
+// VENDOR
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/photoswipe/src/css/main";
+@import "../../node_modules/photoswipe/src/css/default-skin/default-skin";
+@import "vendor/slick-carousel/slick";
+@import "vendor/slick-carousel/slick-theme";
+@import "vendor/jquery-ui/jquery-ui";
+@import "vendor/bootstrap-datepicker/bootstrap-datepicker";
+
+// BASE
+@import "base/reset";
+@import "base/typo";
+@import "base/container";
+
+// LAYOUT
+
+// MODULES
+@import "modules/footer";
+@import "modules/nav";
+@import "modules/header";
+@import "modules/inquiry";
+@import "modules/quicklinks";
+
+// ELEMENTS
+@import "elements/elements";
+@import "elements/media-text--async";
+@import "elements/media-text";
+@import "elements/gallery";
+@import "elements/teaser";

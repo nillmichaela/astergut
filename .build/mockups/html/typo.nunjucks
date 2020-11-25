@@ -1,0 +1,39 @@
+{% set title = 'Typo - Astergut' %}
+{% set currentAlias = 'typo' %}
+
+{% extends 'layouts/typo.nunjucks' %}
+
+{% block content %}
+    <div style="background-color: black">
+        <h1>Ein Ausblick <br>zum Genießen</h1>
+    </div>
+    <h2>Das Appartement</h2>
+    <h3>Ein Rückzugsort direkt am Berg</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+        Lorem ipsum dolor sit amet. Lorem ipsum
+    </p>
+    <a href="" class="btn btn--primary">Anfragen</a>
+    <a href="" class="btn btn--secondary">Buchen</a>
+    <a href="" class="btn btn--link">Mehr Infos</a>
+    <ul>
+        <li>Kostenloser Parkplatz :))))</li>
+    </ul>
+    <br><br>
+    <span class="description">Skiweltcup bei uns in Saalbach</span>
+    <br><br>
+    <footer>
+        <strong>Über uns</strong>
+        <p>Familie Breitfuss</p>
+        <p>Familie Breitfuss</p>
+
+        <ul id="menu-footer" class="footer-nav--list">
+            <li><a href="/impressum/">Impressum</a></li>
+            <li><a href="/datenschutz/">Datenschutz</a></li>
+            <li><a href="/sitemap/">Sitemap</a></li>
+        </ul>
+    </footer>
+{% endblock %}

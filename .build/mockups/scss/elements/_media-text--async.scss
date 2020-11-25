@@ -1,0 +1,73 @@
+.media-text--async {
+  margin-bottom: 200px;
+  @include media-breakpoint-up(xl){
+    margin-bottom: 600px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-right: 85px;
+  }
+  &__text--bg {
+    background-color: $color--black-haze;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    @include media-breakpoint-up(md) {
+      padding-right:100px;
+      padding-bottom: 100px;
+      padding-top: 100px;
+      padding-left: 100px;
+    }
+    @include media-breakpoint-up(xl) {
+      padding-right: 240px;
+      padding-bottom: 140px;
+      padding-top: 140px;
+    }
+  }
+  &__image1 {
+    padding-right: 85px;
+    margin-bottom: 120px;
+    @include media-breakpoint-up(md) {
+      padding-right: 15px;
+      margin-bottom: 0;
+    }
+    @include media-breakpoint-up(xl) {
+      margin-left: -10.66667%;
+      margin-bottom: -10.66667%;
+    }
+    img {
+      padding-left: 75px;
+      margin-top: 50px;
+        @include media-breakpoint-up(xl) {
+          margin: 0;
+          padding: 0;
+        }
+      }
+  }
+  &__image2 {
+    //padding-right: 85px;
+    //padding-left: 90px;
+    @include media-breakpoint-up(md) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+    @include media-breakpoint-up(xl) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  &__badge {
+    width: 250px;
+    position: absolute;
+    bottom: -125px;
+    right: 20px;
+    @include media-breakpoint-up(md) {
+      right: -125px;
+    }
+    z-index: 1;
+    @include media-breakpoint-up(xl) {
+      left: -125px;
+      right: auto;
+    }
+  }
+}

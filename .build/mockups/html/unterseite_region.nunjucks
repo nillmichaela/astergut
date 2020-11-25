@@ -1,0 +1,61 @@
+{% set title = 'Region - Astergut' %}
+{% set currentAlias = 'region' %}
+
+{% extends 'layouts/unterseite_region.nunjucks' %}
+{% block content %}
+    <div class="page-content">
+        <div id="sommer" class="element two-media-text--async">
+            <div class="row">
+                <div class="two-media-text__image1 col-xl-3 col-md-5 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/region/1.jpg" alt="wandern">
+                    <div class="two-media-text--async--badge">
+                        <a href="">
+                            <img class="img-fluid" src="img/region/badge_jokercard_de.svg" alt="Jokercard">
+                        </a>
+                    </div>
+                </div>
+                <div class="two-media-text__image2 col-xl-5 col-md-7 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/region/2.jpg" alt="Zimmer">
+                </div>
+                <div class="two-media-text__text two-media-text__text--nobg col-xl-4">
+                    <h2>Im Sommer</h2>
+                    <h3>ENTSPANNEN IN RUHIGER ATMOSPHÄRE </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">MEHR INFOS</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="winter" class="element two-media-text--async">
+            <div class="row flex-row-reverse">
+                <div class="two-media-text__image1 col-xl-3 col-md-5 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/region/1.jpg" alt="wandern">
+
+                </div>
+                <div class="two-media-text__image2 col-xl-5 col-md-7 col-12 d-flex align-items-end">
+                    <img class="img-fluid" src="img/region/2.jpg" alt="Zimmer">
+                </div>
+                <div class="two-media-text__text two-media-text__text--nobg col-xl-4">
+                    <h2>Im Winter</h2>
+                    <h3>ENTSPANNEN IN RUHIGER ATMOSPHÄRE </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet. Lorem ipsu
+                    </p>
+                    <a class="btn btn--link">MEHR INFOS</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

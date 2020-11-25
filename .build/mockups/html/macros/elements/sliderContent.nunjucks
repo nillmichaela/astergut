@@ -1,0 +1,33 @@
+{% macro sliderContent(items) %}
+	{% from 'macros/elements/header.nunjucks' import header %}
+	
+	<div class="element element--slider-content">
+		<div class="row align-items-center">
+			<div class="col-xl-8 order-md-0">
+				<div class="element--slider-content--images">
+					{% for item in items %}
+						<div class="element--slider-content--images--item">
+							{{ item.media | safe }}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="slider-controls order-md-2">
+				<div class="slider-controls--inner">
+					<span class="current-slide">01</span>
+					<span class="total-slides">{% if items.length < 10 %}0{{ items.length }}{% else %}{{ items.length }}{% endif %}</span>
+				</div>
+			</div>
+			<div class="col-xl-4 order-md-1">
+				<div class="element--slider-content--content">
+					{% for item in items %}
+						<div class="element--slider-content--content--item">
+							{{ header(item.header) }}
+							{{ item.content | safe }}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+{% endmacro %}

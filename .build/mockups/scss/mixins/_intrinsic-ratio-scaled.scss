@@ -1,0 +1,27 @@
+@mixin intrinsicRatioScaled($figureWidth, $width, $height, $offset: 0px, $objectFit: 'cover') {
+	position: relative;
+	width: $figureWidth;
+	height: 0;
+	overflow: hidden;
+	
+	@if ($offset > 0) {
+		padding-bottom: calc(#{$height} / #{$width} * #{$figureWidth} + #{$offset});
+	} @else {
+		padding-bottom: calc(#{$height} / #{$width} * #{$figureWidth});
+	}
+	
+	img {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		max-width: none;
+		height: 100%;
+		max-height: none;
+		object-fit: #{$objectFit};
+		font-family: "object-fit: #{$objectFit};";
+	}
+}

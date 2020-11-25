@@ -1,0 +1,11 @@
+.page-wrap {
+  overflow-x: hidden;
+}
+.container-inner {
+  padding-left: 25px;
+  padding-right: 25px;
+  @include media-breakpoint-up(md) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}

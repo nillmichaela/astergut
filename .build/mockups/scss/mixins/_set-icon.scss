@@ -1,0 +1,6 @@
+@mixin setIcon($icon) {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../img/icons/#{$icon}.svg);
+}

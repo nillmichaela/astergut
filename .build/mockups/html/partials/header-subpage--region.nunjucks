@@ -1,0 +1,25 @@
+<div class="header--subpage--v1">
+    <div class="header__slider container-page position-relative">
+        <div class="header__slider--images">
+            <div class="header__slider--images--item">
+                <img src="/img/region/header.jpg"  class="img-fluid" alt="Hintergrundbild">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-inner">
+    <div class="row position-relative flex-xl-row flex-column-reverse">
+        <div class="nav-subpage col-xl-3">
+            <ul class="row">
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#region">die Region</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#sommer">Im Sommer</a></li>
+                <li class="col-xl-12 col-lg-4 col-md-6"><a href="#winter">Im Winter</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-9 header--subpage--v1--description">
+            <h1 class="h2">Die Region</h1>
+            <h3>ERLEBEN SIE SAALBACH HINTERGLEMM</h3>
+            <p>Lorem consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsuctus est Lorem ipsum dolor sit amet. Lorem ipsum.</p>
+        </div>
+    </div>
+</div>

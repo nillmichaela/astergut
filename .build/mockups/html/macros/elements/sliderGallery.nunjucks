@@ -1,0 +1,30 @@
+{% macro sliderGallery(items) %}
+	<div class="element element--slider-gallery">
+		<div class="row">
+			<div class="col-6">
+				<div class="element--slider-gallery--left">
+					{% for item in items %}
+						<div class="element--slider-gallery--left--item">
+							{{ item.mediaLeft | safe }}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="element--slider-gallery--right">
+					{% for item in items %}
+						<div class="element--slider-gallery--right--item">
+							{{ item.mediaRight | safe }}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<div class="slider-controls">
+			<div class="slider-controls--inner">
+				<span class="current-slide">01</span>
+				<span class="total-slides">{% if items.length < 10 %}0{{ items.length }}{% else %}{{ items.length }}{% endif %}</span>
+			</div>
+		</div>
+	</div>
+{% endmacro %}

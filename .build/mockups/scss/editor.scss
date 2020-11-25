@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+// FONTS
+@import "fonts";
+
+// CONFIG
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+// BASE
+@import "base/reset";
+@import "base/typo";
+
+// LAYOUT
+//@import "layout/element";
+
+// MODULES
+// @import "modules/buttons";
+
+// ELEMENTS
+//@import "elements/header";
+//@import "elements/divider";
+//@import "elements/text-media";
+//@import "elements/text-highlight";
+//@import "elements/slider-content";
+//@import "elements/slider-gallery";
+//@import "elements/slider-products";
+//@import "elements/list-buttons";
+//@import "elements/info-prices";
+//@import "elements/table-prices";
+
+.editor-post-title .editor-post-title__input {
+	text-transform: none;
+
+	@include media-breakpoint-up(md) {
+		@include fontSize(40);
+	}
+
+	@include media-breakpoint-up(lg) {
+		@include fontSize(30);
+	}
+
+	@include media-breakpoint-up(xl) {
+		@include fontSize(40);
+	}
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	text-transform: none;
+}
+
+header {
+	> span, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+		text-transform: none;
+	}
+}
+
+.btn {
+	text-transform: none;
+}

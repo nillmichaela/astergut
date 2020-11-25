@@ -1,0 +1,114 @@
+{% set title = 'Appartement - Astergut' %}
+{% set currentAlias = 'appartement' %}
+
+{% extends 'layouts/unterseite_sommer.nunjucks' %}
+{% block content %}
+
+    <div class="page-content">
+        <div id="activity" class="element text-center">
+            <h2>Aktivitäten in der Region</h2>
+            <h3>Lorem ipsum ipsulteus est seam</h3>
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="activity" class="element text-center">
+            <h2>Ausflugsziele</h2>
+            <h3>Lorem ipsum ipsulteus est seam</h3>
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern<br><span class="small">Salzburg</span></div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div><div class="col-xl-3 col-lg-4 col-md-6 gallery-item">
+                        <img src="img/sommer/1.jpg" class="img-fluid">
+                        <div class="gallery-caption">Wandern</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="element container-inner">
+            <div class="row">
+                <div class="col-xl-7 offset-xl-3">
+                    <img src="img/sommer/gastgebers.jpg" class="img-fluid">
+                    <div class="slogan d-none d-md-block">„Wir helfen gerne
+                        mit zusätzlichen <br class="d-none d-xl-block">Ausflugstipps,
+                        Wanderungen etc. aus“</div>
+                    <div class="caption">Gastgeberbild</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lage" class="element container-inner">
+            <div class="row">
+                <div class="col-xl-7">
+                    <img src="img/about/content.jpg" class="w-100">
+                </div>
+                <div class="col-xl-5">
+                    <div class="text-bg ">
+                        <h2>Beste Lage</h2>
+                        <h3>DIREKT IM NATURPARADIES</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsu
+                        </p>
+                    </div>
+                    <div class="text--badge--left">
+                        <img src="img/sommer/Jokercard.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

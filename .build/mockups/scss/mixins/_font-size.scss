@@ -1,0 +1,5 @@
+@import "../functions";
+
+@mixin fontSize($size) {
+	font-size: #{strip-unit($size) / 16}rem;
+}

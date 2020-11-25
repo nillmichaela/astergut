@@ -1,0 +1,11 @@
+@import "font-size";
+@import "line-height";
+@import "letter-spacing";
+
+@mixin fontStack($family, $weight, $size, $lineHeight, $letterSpacing) {
+	font-family: #{$family};
+	font-weight: #{$weight};
+	@include fontSize($size);
+	@include lineHeight($size, $lineHeight);
+	@include letterSpacing($letterSpacing);
+}
