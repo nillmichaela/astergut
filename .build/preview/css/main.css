@@ -7980,6 +7980,20 @@ footer {
   padding-bottom: 60px;
   margin-top: -50px; }
 
+.header--subpage--v2 {
+  position: relative; }
+  .header--subpage--v2 .header__slider {
+    height: auto; }
+    .header--subpage--v2 .header__slider--stoerer {
+      left: auto;
+      top: auto;
+      right: 50px;
+      bottom: -80px; }
+  .header--subpage--v2 .header__slogan {
+    top: calc(50% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 .inquiry {
   position: fixed;
   bottom: 0;
@@ -8230,6 +8244,13 @@ footer {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear; }
+  .gallery-caption .small {
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.27778;
+    letter-spacing: 0.2em;
+    display: block; }
 
 .gallery-item {
   padding-bottom: 15px;
@@ -8246,6 +8267,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 1;
     background: rgba(51, 51, 51, 0.7); }
 
