@@ -67,6 +67,8 @@
   }
   label {
     padding: 0;
+    transition: all 250ms ease;
+
   }
   input, select, textarea {
     border: 5px solid $color--black-haze;
