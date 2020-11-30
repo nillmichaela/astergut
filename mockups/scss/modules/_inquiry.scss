@@ -105,7 +105,7 @@
   }
   :focus + label,
   .has-content + label {
-    top: 8px;
+    top: 8px !important;
     padding-bottom: 0;
     @include fontSize(16);
     opacity: .75;
