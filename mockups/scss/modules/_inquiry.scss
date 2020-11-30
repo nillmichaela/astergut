@@ -103,4 +103,11 @@
     margin-left: 5px;
     margin-bottom: 20px;
   }
+  :focus + label,
+  .has-content + label {
+    top: 8px;
+    padding-bottom: 0;
+    @include fontSize(16);
+    opacity: .75;
+  }
 }
