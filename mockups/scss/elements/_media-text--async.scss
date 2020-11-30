@@ -71,3 +71,25 @@
     }
   }
 }
+
+.description-image {
+  @include media-breakpoint-up(md) {
+    width: 200%;
+    left: -90%;
+    padding-top: 50px;
+  }
+  @include media-breakpoint-up(xl) {
+    width: auto;
+    left: auto;
+  }
+}
+
+.has-description {
+  margin-bottom: 250px;
+  @include media-breakpoint-up(md) {
+    margin-bottom: 350px;
+  }
+  @include media-breakpoint-up(xl){
+    margin-bottom: 600px;
+  }
+}

@@ -39,3 +39,68 @@
     margin-left: 10px;
   }
 }
+
+// INQUIRY FULLPAGE
+
+.inquiry-fullpage {
+  .has-bg {
+    background: $color--black-haze;
+    padding: 50px;
+    @include media-breakpoint-up(lg) {
+      padding: 100px;
+    }
+    @include media-breakpoint-up(xl) {
+      padding: 150px;
+    }
+  }
+  input, input::placeholder, select, textarea, textarea::placeholder {
+    color: $color--tundora;
+    text-transform: none;
+    background: $color--white;
+    padding: 20px 30px;
+    font-family: Montserrat;
+    letter-spacing: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 27px;
+    min-height: 80px;
+  }
+  label {
+    padding: 0;
+  }
+  input, select, textarea {
+    border: 5px solid $color--black-haze;
+  }
+  form .form-group:not(.form-check) label {
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 0;
+    left: 50px;
+  }
+  .submit--btn {
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .form-check-input {
+    min-height: 0;
+    margin-left: -13px;
+  }
+  .form-check {
+    height: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label {
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  }
+  h3 {
+    margin-top: 80px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+}

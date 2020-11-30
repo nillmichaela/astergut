@@ -104,3 +104,20 @@
     margin-top: -50px;
   }
 }
+.header--subpage--v2 {
+  position: relative;
+  .header__slider {
+    height: auto;
+    &--stoerer {
+      left: auto;
+      top: auto;
+      right: 50px;
+      bottom: -80px;
+    }
+  }
+  .header__slogan {
+    top: calc(50% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

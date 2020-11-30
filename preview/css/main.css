@@ -7636,7 +7636,7 @@ h2, .h2 {
   font-family: Playfair Display;
   font-weight: 400;
   font-size: 2.1875rem;
-  line-height: 1.14286;
+  line-height: normal / 35;
   letter-spacing: 0.12em;
   color: #333333;
   text-shadow: none; }
@@ -7792,7 +7792,11 @@ footer, footer p, footer a {
   padding: 5px 10px;
   position: absolute;
   top: 30px;
-  right: 50px; }
+  right: 50px;
+  display: none; }
+
+.header__slider--images--item .caption {
+  top: 130px; }
 
 .slogan {
   font-family: Playfair Display;
@@ -7804,6 +7808,12 @@ footer, footer p, footer a {
   position: absolute;
   bottom: -136px;
   left: -50px; }
+
+.slogan--right {
+  text-align: center;
+  bottom: -136px;
+  left: auto;
+  right: -50px; }
 
 .page-wrap {
   overflow-x: hidden; }
@@ -7980,6 +7990,20 @@ footer {
   padding-bottom: 60px;
   margin-top: -50px; }
 
+.header--subpage--v2 {
+  position: relative; }
+  .header--subpage--v2 .header__slider {
+    height: auto; }
+    .header--subpage--v2 .header__slider--stoerer {
+      left: auto;
+      top: auto;
+      right: 50px;
+      bottom: -80px; }
+  .header--subpage--v2 .header__slogan {
+    top: calc(50% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 .inquiry {
   position: fixed;
   bottom: 0;
@@ -8012,6 +8036,58 @@ footer {
     margin-left: 10px; }
   .inquiry select {
     margin-left: 10px; }
+
+.inquiry-fullpage .has-bg {
+  background: #ECEDED;
+  padding: 50px; }
+
+.inquiry-fullpage input, .inquiry-fullpage input::placeholder, .inquiry-fullpage select, .inquiry-fullpage textarea, .inquiry-fullpage textarea::placeholder {
+  color: #4C4042;
+  text-transform: none;
+  background: #fff;
+  padding: 20px 30px;
+  font-family: Montserrat;
+  letter-spacing: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 27px;
+  min-height: 80px; }
+
+.inquiry-fullpage label {
+  padding: 0; }
+
+.inquiry-fullpage input, .inquiry-fullpage select, .inquiry-fullpage textarea {
+  border: 5px solid #ECEDED; }
+
+.inquiry-fullpage form .form-group:not(.form-check) label {
+  display: block;
+  position: absolute;
+  top: 26px;
+  right: 0;
+  left: 50px; }
+
+.inquiry-fullpage .submit--btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px; }
+
+.inquiry-fullpage .form-check-input {
+  min-height: 0;
+  margin-left: -13px; }
+
+.inquiry-fullpage .form-check {
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .inquiry-fullpage .form-check label {
+    margin-left: 20px;
+    margin-bottom: 0; }
+
+.inquiry-fullpage h3 {
+  margin-top: 80px;
+  margin-left: 5px;
+  margin-bottom: 20px; }
 
 .quicklinks {
   position: fixed;
@@ -8050,6 +8126,13 @@ footer {
   .element img {
     object-fit: cover; }
 
+.element-small {
+  margin-top: 50px; }
+  .element-small:last-child {
+    margin-bottom: 50px; }
+  .element-small img {
+    object-fit: cover; }
+
 .media-text--async {
   margin-bottom: 200px; }
   .media-text--async__text--bg {
@@ -8070,6 +8153,9 @@ footer {
     bottom: -125px;
     right: 20px;
     z-index: 1; }
+
+.has-description {
+  margin-bottom: 250px; }
 
 .media-text__text--nobg {
   display: flex;
@@ -8230,6 +8316,13 @@ footer {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear; }
+  .gallery-caption .small {
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.27778;
+    letter-spacing: 0.2em;
+    display: block; }
 
 .gallery-item {
   padding-bottom: 15px;
@@ -8246,6 +8339,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 1;
     background: rgba(51, 51, 51, 0.7); }
 
@@ -9426,7 +9520,7 @@ footer {
       font-family: Playfair Display;
       font-weight: 400;
       font-size: 3.75rem;
-      line-height: 1.66667;
+      line-height: normal / 60;
       letter-spacing: 0.12em; }
     .special-list {
       padding-left: 0;
@@ -9446,6 +9540,8 @@ footer {
       padding: 50px;
       margin-left: 50px;
       margin-right: 50px; }
+    .caption {
+      display: block; }
     .container-inner {
       padding-left: 100px;
       padding-right: 100px; }
@@ -9463,6 +9559,10 @@ footer {
       margin-top: 210px; }
       .element:last-child {
         margin-bottom: 210px; }
+    .element-small {
+      margin-top: 140px; }
+      .element-small:last-child {
+        margin-bottom: 140px; }
     .media-text--async {
       padding-right: 85px; }
       .media-text--async__text--bg {
@@ -9478,6 +9578,12 @@ footer {
       padding-left: 0px; }
       .media-text--async__badge {
         right: -125px; }
+  .description-image {
+    width: 200%;
+    left: -90%;
+    padding-top: 50px; }
+    .has-description {
+      margin-bottom: 350px; }
     .media-text__text--nobg {
       padding-left: 100px;
       padding-right: 100px; }
@@ -10049,6 +10155,8 @@ footer {
     text-align: center !important; }
     .slogan {
       bottom: -70px; }
+    .slogan--right {
+      bottom: -70px; }
         .header__slider--stoerer img {
           width: 200px; }
       .header__slider--stoerer {
@@ -10063,6 +10171,8 @@ footer {
         transform: none; }
     .header__slogan {
       top: 400px; }
+    .inquiry-fullpage .has-bg {
+      padding: 100px; }
     .media-link--item {
       padding-left: 15px;
       padding-right: 15px; }
@@ -10595,6 +10705,10 @@ footer {
     .slogan {
       bottom: -50px;
       left: -250px; }
+    .slogan--right {
+      bottom: 50px;
+      left: auto;
+      right: -250px; }
     .lang-nav {
       position: relative;
       right: auto; }
@@ -10619,6 +10733,8 @@ footer {
     .inquiry {
       padding-left: 200px;
       padding-right: 200px; }
+    .inquiry-fullpage .has-bg {
+      padding: 150px; }
     .media-text--async {
       margin-bottom: 600px; }
       .media-text--async__text--bg {
@@ -10637,6 +10753,11 @@ footer {
       .media-text--async__badge {
         left: -125px;
         right: auto; }
+  .description-image {
+    width: auto;
+    left: auto; }
+    .has-description {
+      margin-bottom: 600px; }
     .media-text__text--nobg {
       padding-bottom: 0; }
     .media-text__text--bg {

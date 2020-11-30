@@ -32,11 +32,19 @@
                 </li>
                 <li id="menu-item-52"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52">
-                    <a href="#">Service</a>
+                    <a href="/unterseite_facts.html">Service</a>
                 </li>
                 <li id="menu-item-52"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52">
                     <a href="#">Kontakt</a>
+                    <ul>
+                        <li>
+                            <a href="/unterseite_kontakt.html">Kontakt</a>
+                        </li>
+                        <li>
+                            <a href="/unterseite_anfrage.html">Anfrage</a>
+                        </li>
+                    </ul>
                 </li>
                 <div class="quicklinks-mobile d-block d-md-none">
                     <ul>

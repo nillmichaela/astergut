@@ -1,0 +1,72 @@
+{% set title = 'Jokercard - Astergut' %}
+{% set currentAlias = 'jokercard' %}
+
+{% extends 'layouts/unterseite_facts.nunjucks' %}
+{% block content %}
+    <div class="page-content">
+        <div class="element container-inner inquiry-fullpage">
+            <div class="container-inner has-bg text-center">
+                <h2>Anfrage-Formular</h2>
+                <h3>WIR FREUEN UNS AUF IHRE ANFRAGE!</h3>
+                <p class="mb-5">Senden Sie uns gerne eine unverbindliche Buchungsanfrage.
+                    Wir sind bemüht, Ihnen so schnell wie mögliche ein Angebot zu senden.
+                    Alle Felder mit * sind Pflichtfelder.</p>
+                <form action="/anfrage/#wpcf7-f79-p71-o1" method="post" class="wpcf7-form init text-left" novalidate="novalidate">
+                    <h3>Kontaktdaten</h3>
+                    <div class="row align-items-center">
+                        <div class="col-xl-6">
+                            <div class="form-group">
+                                <input type="text" name="firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="firstname" aria-required="true" aria-invalid="false">
+                                <label for="firstname">Vorname</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group">
+                                <input type="text" name="lastname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="lastname" aria-required="true" aria-invalid="false">
+                                <label for="lastname">Nachname</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group">
+                                <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false">
+                                <label for="email">E-Mail</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group">
+                                <input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" id="phone" aria-invalid="false">
+                                <label for="phone">Telefon</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group has-datepicker">
+                                <input type="text" name="arrival" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" id="arrival" aria-required="true" aria-invalid="false">
+                                <label for="arrival">Anreise</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group has-datepicker">
+                                <input type="text" name="departure" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" id="departure" aria-required="true" aria-invalid="false">
+                                <label for="departure">Abreise</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="form-group">
+                                <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" id="message" aria-invalid="false"></textarea>
+                                <label for="message">Nachricht</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="form-group form-check">
+                                <input type="checkbox" name="id:privacy" value="1" aria-invalid="false" class="form-check-input"><label for="id:privacy">Ich habe die <a href="https://appartement.vae.nill.at/anfrage/" target="_blank">Datenschutzerklärung</a> gelesen und akzeptiert.</label>
+                            </div>
+                            <button type="submit" class="btn btn--primary submit--btn">Absenden</button>
+                        </div>
+
+                    </div><div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

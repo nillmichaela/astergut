@@ -14,3 +14,20 @@
     object-fit: cover;
   }
 }
+
+.element-small {
+  @include media-breakpoint-up(md){
+    margin-top:140px;
+  }
+  margin-top: 50px;
+  &:last-child {
+    @include media-breakpoint-up(md) {
+      margin-bottom: 140px;
+    }
+    margin-bottom: 50px;
+  }
+  img {
+    //width: 100%;
+    object-fit: cover;
+  }
+}

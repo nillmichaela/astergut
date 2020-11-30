@@ -1,0 +1,14 @@
+<div class="header--subpage--v2">
+    <div class="header__slider container-page position-relative">
+        <div class="header__slider--images">
+            <div class="header__slider--images--item">
+                <img src="/img/facts/Zi1.png"  class="img-fluid" alt="Hintergrundbild">
+                <div class="caption">Außenansicht</div>
+
+            </div>
+        </div>
+    </div>
+    <div class="header__slogan">
+        <h1>Astergut Facts</h1>
+    </div>
+</div>
