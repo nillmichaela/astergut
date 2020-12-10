@@ -1,3 +1,0 @@
-{% macro image(config) %}
-	<img class="img-fluid" src="{{ config.src }}" alt="{{ config.alt }}">
-{% endmacro %}

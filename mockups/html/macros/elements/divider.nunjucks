@@ -1,5 +1,0 @@
-{% macro divider() %}
-	<div class="element element--divider">
-		<hr>
-	</div>
-{% endmacro %}

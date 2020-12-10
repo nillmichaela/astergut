@@ -1,0 +1,9 @@
+{
+  "name": "Custom List Horizontal",
+  "slug": "custom-list-horizontal",
+  "for": [
+	"sidebars",
+	"footer",
+	"shortcode_actions"
+  ]
+}

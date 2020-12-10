@@ -1,0 +1,9 @@
+<nav class="lang-nav col-md-1">
+	<ul class="lang-nav--list d-flex float-right">
+		{%- for code, language in languages -%}
+			{% if language.is_current == false %}
+				<li><a href="{{ language.url }}">{{ language.code }}</a></li>
+			{% endif %}
+		{%- endfor -%}
+	</ul>
+</nav>
